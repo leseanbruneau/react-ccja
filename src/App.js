@@ -1,25 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+
+//import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
+import { Provider } from './context/context';
+
+import Header from './components/Header'
+//import Days from './components/Days'
+import Sprints from './components/Sprints'
+import About from './components/About'
+import Resources from './components/Resources'
+import ReactHelp from './components/ReactHelp'
+
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
+  // Try sometime - Provider basename={process.env.PUBLIC_URL}
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider>
+      <div>
+        <Router>
+          <Header />
+          <div>
+            <Switch>
+              <Route exact path="/" component= { Sprints } />
+              <Route exact path="/reacthelp" component= { ReactHelp } />
+              <Route exact path="/about" component= { About } />
+              <Route exact path="/resources" component= { Resources } />
+            </Switch>
+          </div>
+          
+        </Router>
+
+      </div>
+    </Provider>
   );
 }
 
