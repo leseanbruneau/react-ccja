@@ -22,7 +22,7 @@ function App() {
       <div>
         <Router>
           <Header />
-          <div>
+          <div className="pagetop">
             <Switch>
               <Route exact path="/" component= { Sprints } />
               <Route exact path="/reacthelp" component= { ReactHelp } />

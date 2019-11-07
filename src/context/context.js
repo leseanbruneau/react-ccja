@@ -8,9 +8,9 @@ export class Provider extends Component {
       {
         "id": 1,
         "sprintnbr": 1,
-        "sprinttitle": "First Sprint",
-        "sprintgoals": "get this thing to work!!!",
-        "sprintreview": "not there yet",
+        "sprinttitle": "Python",
+        "sprintgoals": "Read and write files, libraries",
+        "sprintreview": "Python programs and libraries worked",
         "days": [
           {
             "id": 101,
@@ -18,8 +18,8 @@ export class Provider extends Component {
             "challengeDay": 1,
             "date": "20190930",
             "dayNotes": [
-              "Installed new Oracle VirtualBox VM",
-              "Installed Node, NPM, Visual Studio Code and related software"
+              "Wrote Python Hello World program",
+              "Python program to read text file"
             ]
           },
           {
@@ -28,17 +28,17 @@ export class Provider extends Component {
             "challengeDay": 2,
             "date": "20191001",
             "dayNotes": [
-              "Created React project and initial days page"
+              "Some other Python stuff"
             ]
           },
           {
-            "id": 103,
-            "sprintDay": 3,
-            "challengeDay": 3,
+            "id": 110,
+            "sprintDay": 10,
+            "challengeDay": 10,
             "date": "20191002",
             "dayNotes": [
-              "Converted challenge day notes into an array",
-              "Added Header and color fonts and background"
+              "OK, so I may have skipped a few days for this example",
+              "Will be a pattern in future sprints for this example program"
             ]
           }
         ]
@@ -46,9 +46,9 @@ export class Provider extends Component {
       {
         "id": 2,
         "sprintnbr": 2,
-        "sprinttitle": "First Sprint",
-        "sprintgoals": "get this thing to work!!!",
-        "sprintreview": "not there yet",
+        "sprinttitle": "Docker",
+        "sprintgoals": "Learn Docker basics, configure, install, deploy and run Docker containers",
+        "sprintreview": "Containers are awesome, wish I could use them at my workplace",
         "days": [
           {
             "id": 201,
@@ -56,27 +56,47 @@ export class Provider extends Component {
             "challengeDay": 11,
             "date": "20190930",
             "dayNotes": [
-              "Installed new Oracle VirtualBox VM",
-              "Installed Node, NPM, Visual Studio Code and related software"
+              "Something to do with Docker",
+              "Wrote first Docker compose file"
             ]
           },
           {
-            "id": 202,
-            "sprintDay": 2,
-            "challengeDay": 12,
-            "date": "20191001",
-            "dayNotes": [
-              "Created React project and initial days page"
-            ]
-          },
-          {
-            "id": 203,
-            "sprintDay": 3,
-            "challengeDay": 13,
+            "id": 210,
+            "sprintDay": 10,
+            "challengeDay": 20,
             "date": "20191002",
             "dayNotes": [
-              "Converted challenge day notes into an array",
-              "Added Header and color fonts and background"
+              "Quick Sprint - that went fast"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "sprintnbr": 3,
+        "sprinttitle": "Apache Spark",
+        "sprintgoals": "Learn Apache Spark - configure and write programs",
+        "sprintreview": "Gobs and gobs of multitasking",
+        "days": [
+          {
+            "id": 301,
+            "sprintDay": 1,
+            "challengeDay": 31,
+            "date": "20190930",
+            "dayNotes": [
+              "More examples",
+              "Busy first day",
+              "One more comment"
+            ]
+          },
+          {
+            "id": 310,
+            "sprintDay": 10,
+            "challengeDay": 40,
+            "date": "20191002",
+            "dayNotes": [
+              "Got to thank the team for this - could not have finished this sprint without all the hard working nodes out there",
+              "End of examples"
             ]
           }
         ]

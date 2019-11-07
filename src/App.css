@@ -21,6 +21,10 @@
   color: #09d3ac;
 }
 
+.pagetop {
+  margin-top: 5rem;
+}
+
 .navbar {
   /* text-align: left; */
   background-color: black;
@@ -59,7 +63,23 @@
 
 .cardsprintbody {
   padding: 20px;
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+
+.sprintinfo {
+  display: flex;
+}
+
+.sprintlabel {
+  flex: 0 0 20%;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 0.5rem;
+}
+
+.sprintdesc {
+  flex: 1;
+  text-align: left;
 }
 
 .cardday {
@@ -76,7 +96,7 @@
   color: yellow;
   padding: 15px;
   font-weight: bold;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
 }
 
 .carddayheaderline {
