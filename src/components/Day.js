@@ -10,7 +10,7 @@ class Day extends Component {
       <div className="container" key={day.id}>
         <div className="cardday">
           <div className="carddayheader">
-            <span><strong>Challenge Day: </strong> {day.challengeDay}</span>
+            <span><strong>Day: </strong> {day.challengeDay}</span>
             <span style={{ float: 'right' }}>
               <strong>Date: </strong>
               {day.date.substring(4, 6)}/

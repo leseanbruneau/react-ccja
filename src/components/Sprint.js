@@ -10,6 +10,17 @@ class Sprint extends Component {
 
   onShowClick = e => {
     this.setState({ showSprintDetails: !this.state.showSprintDetails });
+
+  }
+
+  componentDidMount() {
+    const {openSprint} = this.props;
+    const {sprint} = this.props;
+
+    if (sprint.sprintnbr === openSprint) {
+      this.setState({ showSprintDetails: !this.state.showSprintDetails });
+    } 
+ 
   }
 
   render() {
@@ -21,11 +32,14 @@ class Sprint extends Component {
         <div className="container" key={sprint.id}>
           <div className="cardsprint">
             <div className="cardsprintheader">
-              <span><strong>Sprint Title: </strong>{sprint.sprinttitle}</span>
-              <span className="cardsprintheaderbutton">
-              <button onClick={this.onShowClick}>
-                {showSprintDetails ? "Hide Details" : "Show Details" }
-              </button>
+              <span>
+                <strong>Sprint Number: </strong>{sprint.sprintnbr}<br />
+                <strong>Sprint Title: </strong>{sprint.sprinttitle}
+              </span>
+              <span className="cardsprintheaderbutton my-auto">
+                <button onClick={this.onShowClick}>
+                  {showSprintDetails ? "Hide" : "Show" }
+                </button>
               </span>
             </div>
             {showSprintDetails ? (
@@ -50,4 +64,3 @@ class Sprint extends Component {
 }
 
 export default Sprint;
-
