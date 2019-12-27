@@ -2,8 +2,24 @@ import React, { Component } from 'react'
 
 import '../App.css'
 import Sprint from './Sprint'
+import axios from '../axios-instance';
 
 class Sprints extends Component {
+
+  state = {
+    sprints: null
+  }
+
+  componentDidMount() {
+    axios.get('sprints.json')
+      .then(response => {
+        this.setState({ sprints: response.data});
+      })
+      .catch(error => {
+        console.log('error fetching data from remote source...');
+      })
+  }
+    
 
   render() {
 
@@ -11,8 +27,8 @@ class Sprints extends Component {
     let sprintNbrs = [];
     var maxSprintNbr;
 
-    if(localTestDataSprints) {
-      localTestDataSprints.map((snbr,i) => (
+    if(this.state.sprints) {
+      this.state.sprints.map((snbr,i) => (
         sprintNbrs.push(Number(snbr.sprintnbr))
       ))
 
@@ -29,13 +45,13 @@ class Sprints extends Component {
       console.log('maxSprintNbr: ' + maxSprintNbr);
 
 
-      localTestDataSprints.sort(function(a,b) {
+      this.state.sprints.sort(function(a,b) {
         return b.sprintnbr - a.sprintnbr;
       });
 
       allSprints = (
         <React.Fragment>
-          {localTestDataSprints.map((sprint,i) => (
+          {this.state.sprints.map((sprint,i) => (
             <Sprint sprint={sprint} openSprint={maxSprintNbr} key={i} />
           ))}
         </React.Fragment>
@@ -54,6 +70,7 @@ class Sprints extends Component {
 
 export default Sprints;
 
+/*
 const localTestDataSprints = [
 {
   "id": 1,
@@ -120,3 +137,4 @@ const localTestDataSprints = [
   ]
 }
 ];
+*/

@@ -7,21 +7,21 @@ export default function About() {
       <hr />
       <div className="display-5">
           <p>Below are high level goals that I want to learn during this challenge.</p>
-          <h3><a href="https://reactjs.org/" target="_blank">React</a></h3>
+          <h3><a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a></h3>
           <p>
               This web application is built on React library and started with create-react-app utility.  
               There are improvements that should be made to this site and to my casual fan horse racing 
-              site <a href="https://landsharkpark-mn.firebaseapp.com/" target="_blank"> LandShark Park</a>.
+              site <a href="https://landsharkpark-mn.firebaseapp.com/" target="_blank" rel="noopener noreferrer"> LandShark Park</a>.
               While not major changes expected, I would like to learn more about React Context API and Redux.
               And I have a few more pages to complete on 
-              <a href="https://landsharkpark-mn.firebaseapp.com/" target="_blank"> LandShark Park</a>.
+              <a href="https://landsharkpark-mn.firebaseapp.com/" target="_blank" rel="noopener noreferrer"> LandShark Park</a>.
           </p>
           <br></br>
-          <h3><a href="https://www.docker.com/" target="_blank">Docker</a></h3>
+          <h3><a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">Docker</a></h3>
           <p>
               My first and only experience with Docker was during a   
-              <a href="https://www.stthomas.edu/gradsoftware/current/courses/" target="_blank"> DevOps and Cloud Infrastructure</a> 
-              course at the <a href="https://www.stthomas.edu/gradsoftware/" target="_blank"> University of St. Thomas</a>.  
+              <a href="https://www.stthomas.edu/gradsoftware/current/courses/" target="_blank" rel="noopener noreferrer"> DevOps and Cloud Infrastructure</a> 
+              course at the <a href="https://www.stthomas.edu/gradsoftware/" target="_blank" rel="noopener noreferrer"> University of St. Thomas</a>.  
               Oustanding class - I would highly recommended for any IT Professional to take this course - whether in a degree 
               program or as an audit.  
           </p>
@@ -30,12 +30,12 @@ export default function About() {
               these days - it would likely be a very long time before my current employer's applications are moved to containers.    
           </p>
           <br></br>
-          <h3><a href="https://kafka.apache.org/" target="_blank">Apache Kafka</a></h3>
+          <h3><a href="https://kafka.apache.org/" target="_blank" rel="noopener noreferrer">Apache Kafka</a></h3>
           <p>
               I know the theory with pub/sub messaging systems.  I want to set up and code some examples.  
           </p>
           <br></br>
-          <h3><a href="http://spark.apache.org/" target="_blank">Apache Spark</a></h3>
+          <h3><a href="http://spark.apache.org/" target="_blank" rel="noopener noreferrer">Apache Spark</a></h3>
           <p>
               For this 100 Day Code Challenge, my Apache Spark journey will likely just be setting up a system 
               and coding some small examples.  The second half of 2020 I'm planning 100 Days of Maching Learning Code Challenge 

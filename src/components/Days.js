@@ -15,8 +15,8 @@ export default class Days extends Component {
     
     return (
       <React.Fragment>
-        {days.map(day => (
-          <Day day={day} />
+        {days.map((day,i) => (
+          <Day day={day} key={i} />
         ))}
       </React.Fragment>
     )

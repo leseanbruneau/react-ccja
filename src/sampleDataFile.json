@@ -1,0 +1,68 @@
+{
+  "sprints" : [
+    {
+      "id": 1,
+      "sprintnbr": 1,
+      "sprinttitle": "React Technical Debt",
+      "sprintgoals": "Clean up React applications - This 100 Day Challenge site and LandShark Park site",
+      "sprintreview": "",
+      "days": [
+        {
+          "id": 101,
+          "sprintDay": 1,
+          "challengeDay": 1,
+          "date": "20191226",
+          "dayNotes": [
+          ]
+        },
+        {
+          "id": 102,
+          "sprintDay": 2,
+          "challengeDay": 2,
+          "date": "20191227",
+          "dayNotes": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "sprintnbr": 2,
+      "sprinttitle": "Docker",
+      "sprintgoals": "Learn Docker basics, configure, install, deploy and run Docker containers",
+      "sprintreview": "Containers are awesome, wish I could use them at my workplace",
+      "days": [
+      ]
+    },
+    {
+      "id": 3,
+      "sprintnbr": 3,
+      "sprinttitle": "Apache Spark",
+      "sprintgoals": "Learn Apache Spark - configure and write programs",
+      "sprintreview": "Gobs and gobs of multitasking",
+      "days": [
+        {
+          "id": 301,
+          "sprintDay": 1,
+          "challengeDay": 31,
+          "date": "20190930",
+          "dayNotes": [
+            "More examples",
+            "Busy first day",
+            "One more comment"
+          ]
+        },
+        {
+          "id": 310,
+          "sprintDay": 10,
+          "challengeDay": 40,
+          "date": "20191002",
+          "dayNotes": [
+            "Got to thank the team for this - could not have finished this sprint without all the hard working nodes out there",
+            "End of examples"
+          ]
+        }
+      ]
+    }
+    ]
+}
