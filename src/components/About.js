@@ -3,6 +3,23 @@ import React from 'react'
 export default function About() {
   return (
     <div className="container">
+      <p className='display-4'>My "Planned" Structure</p>
+      <hr />
+      <div className="display-5">
+        <ul>
+            <li>10 Sprints for 100 Days of Code Challenge</li>
+            <li>10 Days of Coding per Sprint</li>
+            <li>Sprint Planning - State high level goal(s) to accomplish during Sprint</li>
+            <li>Sprint Review - Quick notes for lessons learned, accomplishments</li>
+        </ul>
+        <p>
+            Note: The added "Agile format" is not meant to distract from coding exercises in the 
+            100 Days of Code Challenge.  Sprint Planing and Review are meant to be short, quick 
+            notes.  Agile format would help me set short term goals in addition to formatting 
+            organized journal entries for public posting.
+        </p>
+      </div>
+      <br></br>
       <p className='display-4'>Goals For This Project</p>
       <hr />
       <div className="display-5">
@@ -42,27 +59,13 @@ export default function About() {
               where I will focus more on machine learning design.  
           </p>
           <br></br>
-          <h3>My "Planned" Structure</h3>
-          <ul>
-              <li>10 Sprints for 100 Days of Code Challenge</li>
-              <li>10 Days of Coding per Sprint</li>
-              <li>Sprint Planning - State high level goal(s) to accomplish during Sprint</li>
-              <li>Sprint Review - Quick notes for lessons learned, accomplishments</li>
-          </ul>
-          <p>
-              Note: The added "Agile format" is not meant to distract from coding exercises in the 
-              100 Days of Code Challenge.  Sprint Planing and Review are meant to be short, quick 
-              notes.  Agile format would help me set short term goals in addition to formatting 
-              organized journal entries for public posting.
-          </p>
-          <h3>Final Thought</h3>
+          <h3>Quick Final Thought</h3>
           <p>
               There is a better chance of me finishing this challenge than that whole "healthy eating, exercise 
               and just be a good person" resolutions that seems to pop up around this time of year.  However I'm not 
               legally obligated to finish this challenge.  If I'm not having fun with this challenge, I'll quit.  
               That is the way I roll.  Thanks for stopping by - Have a great day!
           </p>
-          <br></br>
           <br></br>
       </div>
     </div>

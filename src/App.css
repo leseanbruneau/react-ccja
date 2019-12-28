@@ -34,8 +34,8 @@
 .cardsprintheader {
   background-color: purple;
   color: lightgray;
-  padding: 10px;
   width: 100%;
+  padding: 10px;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -59,15 +59,15 @@
 }
 
 .sprintlabel {
-  flex: 0 0 20%;
-  text-align: right;
+  padding-top: 1rem;
+  width: 100%;
+  text-align: left;
   font-weight: bold;
-  padding-right: 0.5rem;
 }
 
 .sprintdesc {
-  flex: 1;
-  text-align: left;
+  margin-left: 1rem;
+  font-weight: normal;
 }
 
 .cardday {
@@ -104,3 +104,10 @@
   font-size: 0.9rem;
 }
 
+div ul {
+  list-style: none;
+  margin-right: 0em;
+  margin-left: 0em;
+  padding-right: 0em;
+  padding-left: 0em;
+}

@@ -19,12 +19,12 @@ class Day extends Component {
             </span>
           </div>
           <div className='carddaybody'>
-            <strong>Challenge Day's Notes:</strong>
+            <strong>Challenge Day's Accomplishments:</strong>
             <br />
             <ul>
               {day.dayNotes.map((note, index) => (
                 <li key={index}>
-                  <span style={{ paddingLeft: '10px' }}>{note}</span>
+                  <span style={{ paddingLeft: '20px' }}>{note}</span>
                 </li>
               ))}
             </ul>

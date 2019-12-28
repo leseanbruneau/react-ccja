@@ -76,8 +76,12 @@ const localTestDataSprints = [
   "id": 1,
   "sprintnbr": 1,
   "sprinttitle": "React Technical Debt",
-  "sprintgoals": "Clean up React applications - This 100 Day Challenge site and LandShark Park site",
-  "sprintreview": "",
+  "sprintgoals": [
+    "Clean up React applications - This 100 Day Challenge site and LandShark Park site"
+  ],
+  "sprintreview": [
+    "To Be Determined"
+  ],
   "days": [
     {
       "id": 101,
@@ -85,6 +89,7 @@ const localTestDataSprints = [
       "challengeDay": 1,
       "date": "20191226",
       "dayNotes": [
+        "testing"
       ]
     },
     {
@@ -93,6 +98,7 @@ const localTestDataSprints = [
       "challengeDay": 2,
       "date": "20191227",
       "dayNotes": [
+        "testing"
       ]
     }
   ]
@@ -101,17 +107,34 @@ const localTestDataSprints = [
   "id": 2,
   "sprintnbr": 2,
   "sprinttitle": "Docker",
-  "sprintgoals": "Learn Docker basics, configure, install, deploy and run Docker containers",
-  "sprintreview": "Containers are awesome, wish I could use them at my workplace",
+  "sprintgoals": [
+    "Learn Docker basics, configure, install, deploy and run Docker containers"
+  ],
+  "sprintreview": [
+    "Containers are awesome, wish I could use them at my workplace"
+  ],
   "days": [
+    {
+      "id": 201,
+      "sprintDay": 1,
+      "challengeDay": 11,
+      "date": "20191231",
+      "dayNotes": [
+        "testing"
+      ]
+    }
   ]
 },
 {
   "id": 3,
   "sprintnbr": 3,
   "sprinttitle": "Apache Spark",
-  "sprintgoals": "Learn Apache Spark - configure and write programs",
-  "sprintreview": "Gobs and gobs of multitasking",
+  "sprintgoals": [
+    "Learn Apache Spark - configure and write programs"
+  ],
+  "sprintreview": [
+    "Gobs and gobs of multitasking"
+  ],
   "days": [
     {
       "id": 301,
