@@ -11,7 +11,7 @@ class Header extends Component {
         <div className="container">
           <div className="nav-item pr-2" data-toggle="collapse" data-target="#navbarMain">
             <Link to="/" className="navbar-brand">
-              LeSean 100 Day Code Challenge
+              LeSean - 100 Days
             </Link>
           </div>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain">
