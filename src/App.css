@@ -35,22 +35,19 @@
   background-color: purple;
   color: lightgray;
   width: 100%;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
   font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.cardsprintheaderline {
-  padding: 10px 5px;
+  font-size: 1rem;
 }
 
 .cardsprintheaderbutton {
   float: right;  
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .cardsprintbody {
-  padding: 20px;
+  padding: 10px;
   font-size: 1rem;
 }
 
@@ -63,11 +60,13 @@
   width: 100%;
   text-align: left;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .sprintdesc {
   margin-left: 1rem;
   font-weight: normal;
+  font-size: 0.9rem;
 }
 
 .cardday {
@@ -75,8 +74,11 @@
   align-items: left;
   justify-content: left;
   border: 2px solid purple;
-  margin: 10px 50px 10px 50px;
-  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  font-size: 0.9rem;
 }
 
 .carddayheader {
@@ -84,25 +86,14 @@
   color: purple;
   padding: 15px;
   font-weight: bold;
-  font-size: 0.9rem;
-}
-
-.carddayheaderline {
-  padding: 10px 5px;
-}
-
-.carddayheaderbutton {
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 1.25rem;
+  font-size: 0.8rem;
 }
 
 .carddaybody {
-  padding: 20px;
-  font-size: 0.9rem;
-}
+  font-weight: normal;
+  padding: 1rem;
+  font-size: 0.8rem;
+}  
 
 div ul {
   list-style: none;
@@ -110,4 +101,57 @@ div ul {
   margin-left: 0em;
   padding-right: 0em;
   padding-left: 0em;
+}
+
+@media (min-width: 900px) {
+
+  .cardsprintheader {
+    background-color: purple;
+    color: lightgray;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  .cardsprintheaderbutton {
+    float: right;  
+    font-size: 1.25rem;
+  }
+  
+  .sprintlabel {
+    padding-top: 1rem;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .sprintdesc {
+    margin-left: 1rem;
+    font-weight: normal;
+  }  
+
+  .cardday {
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    border: 2px solid purple;
+    margin: 10px 50px 10px 50px;
+    font-size: 1.1rem;
+  }
+  
+  .carddayheader {
+    background-color: lightgrey;
+    color: purple;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+
+  .carddaybody {
+    padding: 20px;
+    font-size: 1.1rem;
+  }  
 }

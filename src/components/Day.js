@@ -7,10 +7,11 @@ class Day extends Component {
     const {day} = this.props;
 
     return (
-      <div className="container" key={day.id}>
+      <div key={day.id}>
         <div className="cardday">
           <div className="carddayheader">
-            <span><strong>Day: </strong> {day.challengeDay}</span>
+            <span><strong>Sprint Day: </strong> {day.sprintDay} | </span>
+            <span><strong>Challenge Day: </strong> {day.challengeDay}</span>
             <span style={{ float: 'right' }}>
               <strong>Date: </strong>
               {day.date.substring(4, 6)}/
@@ -19,7 +20,7 @@ class Day extends Component {
             </span>
           </div>
           <div className='carddaybody'>
-            <strong>Challenge Day's Accomplishments:</strong>
+            <strong>Challenge Day Accomplishments:</strong>
             <br />
             <ul>
               {day.dayNotes.map((note, index) => (

@@ -33,7 +33,7 @@ class Sprint extends Component {
           <div className="cardsprint">
             <div className="cardsprintheader">
               <span>
-                <strong>S:{sprint.sprintnbr} - {sprint.sprinttitle}</strong>
+                <strong>Sprint {sprint.sprintnbr} - {sprint.sprinttitle}</strong>
               </span>
               <span className="cardsprintheaderbutton">
                 <button onClick={this.onShowClick}>
