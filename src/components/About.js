@@ -3,6 +3,16 @@ import React from 'react'
 export default function About() {
   return (
     <div className="container">
+      <p className='display-4'>Contact Information</p>
+      <div className="text-left ml-5">
+        <i className="mr-3 fab fa-twitter"></i>
+        <a href="https://twitter.com/leseanbruneau" target="_blank" rel="noopener noreferrer">@leseanbruneau</a>
+      </div>
+      <div className="text-left ml-5">
+        <i className="mr-3 fab fa-github"></i>
+        <a href="https://github.com/leseanbruneau/react-ccja" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+      </div>
+      <hr />
       <p className='display-4'>My "Planned" Structure</p>
       <hr />
       <div className="display-5">
