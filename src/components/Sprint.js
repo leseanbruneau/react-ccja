@@ -68,7 +68,9 @@ class Sprint extends Component {
                   </React.Fragment>
                 ) : null}
                 <br />
-                <Days days={sprint.days} />
+                {sprint.days ? (
+                  <Days days={sprint.days} />
+                ) : null}
               </div>
             ) : null}
           </div>
