@@ -4,13 +4,23 @@ export default function About() {
   return (
     <div className="container">
       <p className='display-4'>Contact Information</p>
-      <div className="text-left ml-5">
-        <i className="mr-3 fab fa-twitter"></i>
-        <a href="https://twitter.com/leseanbruneau" target="_blank" rel="noopener noreferrer">@leseanbruneau</a>
-      </div>
-      <div className="text-left ml-5">
-        <i className="mr-3 fab fa-github"></i>
-        <a href="https://github.com/leseanbruneau/react-ccja" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+      <div className="row ml-3">
+        <div className="col-xs-12 col-md-6 col-xl-3">
+          <i className="mr-3 fas fa-laptop"></i>
+          <a href="http://leseanbruneau.com" target="_blank" rel="noopener noreferrer">Website</a>
+        </div>
+        <div className="col-xs-12 col-md-6 col-xl-3">
+          <i className="mr-3 fas fa-rss"></i>
+          <a href="https://medium.com/@leseanbruneau" target="_blank" rel="noopener noreferrer">Blog</a>
+        </div>
+        <div className="col-xs-12 col-md-6 col-xl-3">
+          <i className="mr-3 fab fa-twitter"></i>
+          <a href="https://twitter.com/leseanbruneau" target="_blank" rel="noopener noreferrer">@leseanbruneau</a>
+        </div>
+        <div className="col-xs-12 col-md-6 col-xl-3">
+          <i className="mr-3 fab fa-github"></i>
+          <a href="https://github.com/leseanbruneau/react-ccja" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+        </div>
       </div>
       <hr />
       <p className='display-4'>My "Planned" Structure</p>
