@@ -20,6 +20,11 @@ class Header extends Component {
           <div className="collapse navbar-collapse" id="navbarMain">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item pr-2" data-toggle="collapse" data-target="#navbarMain">
+                <Link to="/retrospective" className="nav-link">
+                  Retrospective
+                </Link>
+              </li>
+              <li className="nav-item pr-2" data-toggle="collapse" data-target="#navbarMain">
                 <Link to="/reacthelp" className="nav-link">
                   React Tips
                 </Link>

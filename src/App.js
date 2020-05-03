@@ -11,6 +11,7 @@ import Sprints from './components/Sprints'
 import About from './components/About'
 import Resources from './components/Resources'
 import ReactHelp from './components/ReactHelp'
+import Retro from './components/Retro'
 
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -24,6 +25,7 @@ function App() {
         <div className="container" style={{paddingTop: '75px'}}>
           <Switch>
             <Route exact path="/" component= { Sprints } />
+            <Route exact path="/retrospective" component= { Retro } />
             <Route exact path="/reacthelp" component= { ReactHelp } />
             <Route exact path="/about" component= { About } />
             <Route exact path="/resources" component= { Resources } />

@@ -62,6 +62,8 @@ class Sprints extends Component {
 
     return (
       <React.Fragment>
+        <p className='display-4'>LeSean's 100 Days of ML Code Challenge</p>
+        <hr />
         {allSprints}
       </React.Fragment>
     )

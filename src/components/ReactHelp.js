@@ -5,19 +5,23 @@ export default function ReactHelp() {
         <div className="container">
             <p className='display-4'>React Tips and Tricks</p>
             <hr />
-            <p><strong>Deploy React application to GitHub Pages Repository</strong></p>
-            <p>Two separate directories on workstation - React application (%%app_root_directory%%) and GitHub Pages (%%github_repo_directory%%)</p>
-            <p>Linux commands from %%app_root_directory%%</p>
+            <p><strong>Deploy React application to Google Firebase project</strong></p>
+            <p>I create two separate directories on virtual machine </p>
+            <ul>
+              <li>React application (%%app_root_directory%%)</li>
+              <li>Firebase deployment directory (%%fb_deploy_directory%%)</li>
+            </ul>
+            <p>To create production deployment build files:  Linux commands from %%app_root_directory%%</p>
             <ul>
                 <li><strong>npm run build</strong></li>
-                <li><strong>cp -r build/* %%github_repo_directory%%</strong></li>
+                <li><strong>cp -r build/* %%fb_deploy_directory%%</strong></li>
             </ul>
-            <p>Linux commands from %%github_repo_directory%% </p>
+            <p>Linux commands from %%fb_deploy_directory%% </p>
             <ul>
-                <li><strong>git status</strong></li>
-                <li><strong>git add .</strong></li>
-                <li><strong>git commit -m "Day whatever - be creative with your message"</strong></li>
-                <li><strong>git push -u origin master</strong></li>
+              <li><strong>firebase login</strong></li>
+              <li><strong>firebase init</strong></li>
+              <li><strong>firebase deploy</strong></li>
+              <li><strong>firebase logout</strong></li>
             </ul>
             <br />
             <p><strong>React - Create new React application</strong></p>
@@ -33,9 +37,12 @@ export default function ReactHelp() {
                 <li><strong>npm i axios</strong></li>
             </ul>
             <br />
-            <p><strong>GitHub Pages - Simple Static Website Hosting</strong></p>
-            <p class="px-4">Create Repository = <strong>%%github_username%%.github.io</strong> where %%github_username%% is your GitHub username</p>
-            <p class="px-4">Clone your <strong>%%github_username%%.github.io</strong> repository to your workstation</p>
+            <p><strong>Google Firebase - Simple Static Website Hosting</strong></p>
+            <p class="px-4">If you have a gmail account, then you are already set up.  Go to Firebase Console 
+              screen <a href="https://firebase.google.com/" >
+                Firebase Console screen
+              </a> and login with your gmail account credentials.  Once logged in, you can create a new project to get started.
+            </p>
             <br />
             <p className='display-5'><strong>Linux Environment Setup</strong></p>
             <br />
