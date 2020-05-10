@@ -67,6 +67,20 @@ class Sprint extends Component {
                     </ul>
                   </React.Fragment>
                 ) : null}
+                {sprint.techdebt ? (
+                  <React.Fragment>
+                    <div className="sprintlabel">Technical Debt:</div>
+                    <ul>          
+                    <React.Fragment>
+                        {sprint.techdebt.map((note, i)  => (
+                          <li className="sprintdesc" key={i}>
+                            { note }
+                          </li>
+                        ))}
+                      </React.Fragment>
+                    </ul>
+                  </React.Fragment>
+                ) : null}
                 <br />
                 {sprint.days ? (
                   <Days days={sprint.days} />

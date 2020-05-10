@@ -14,7 +14,7 @@ export default function ReactHelp() {
             <p>To create production deployment build files:  Linux commands from %%app_root_directory%%</p>
             <ul>
                 <li><strong>npm run build</strong></li>
-                <li><strong>cp -r build/* %%fb_deploy_directory%%</strong></li>
+                <li><strong>cp -rp build/* %%fb_deploy_directory%%/build</strong></li>
             </ul>
             <p>Linux commands from %%fb_deploy_directory%% </p>
             <ul>
