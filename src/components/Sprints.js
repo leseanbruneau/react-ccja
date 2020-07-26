@@ -62,6 +62,12 @@ class Sprints extends Component {
 
     return (
       <React.Fragment>
+        <br />
+        <h1>On Break...</h1>
+        <br />
+        <p>Taking a few weeks off during summer - will resume in September</p>
+        <br />
+        <br />
         <p className='display-4'>LeSean's 100 Days of ML Code Challenge</p>
         <hr />
         {allSprints}
